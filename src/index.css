@@ -1,0 +1,65 @@
+body {
+  background-color: #111929;
+  /* overflow-y: hidden; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes anim{
+  from {background-color: white;}
+  to {background-color: grey;}
+}
+
+.animated{
+  /* animation-name: anim;
+  animation-duration: .3s; */
+  animation: anim .3s infinite;
+}
+
+
+.t0{
+  animation-delay: .03s;
+}
+.t1{
+  animation-delay: .06s;
+}
+.t2{
+  animation-delay: .09s;
+}
+.t3{
+  animation-delay: .12s;
+}
+.t4{
+  animation-delay: .150s;
+}
+.t5{
+  animation-delay: .180s;
+}
+.t6{
+  animation-delay: .210s;
+}
+.t7{
+  animation-delay: .240s;
+}
+.t8{
+  animation-delay: .270s;
+}
+.t9{
+  animation-delay: .300s;
+}
+
+@font-face {
+  font-family: 'johnnyFever';
+  src: url(./johnny_fever/johnnyFever.ttf) format('truetype');
+}
+
+
